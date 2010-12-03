@@ -1,0 +1,37 @@
+bin/dropbox
+share/applications/dropbox.desktop
+share/icons/hicolor/16x16/apps/dropbox.png
+share/icons/hicolor/22x22/apps/dropbox.png
+share/icons/hicolor/24x24/apps/dropbox.png
+share/icons/hicolor/32x32/apps/dropbox.png
+share/icons/hicolor/48x48/apps/dropbox.png
+share/icons/hicolor/64x64/apps/dropbox.png
+share/icons/hicolor/icon-theme.cache
+share/licenses/nautilus-dropbox-0.6.7/GPLv2
+share/licenses/nautilus-dropbox-0.6.7/LICENSE
+share/licenses/nautilus-dropbox-0.6.7/catalog.mk
+share/nautilus-dropbox/emblems/emblem-dropbox-syncing.icon
+share/nautilus-dropbox/emblems/emblem-dropbox-syncing.png
+share/nautilus-dropbox/emblems/emblem-dropbox-unsyncable.icon
+share/nautilus-dropbox/emblems/emblem-dropbox-unsyncable.png
+share/nautilus-dropbox/emblems/emblem-dropbox-uptodate.icon
+share/nautilus-dropbox/emblems/emblem-dropbox-uptodate.png
+@dirrm share/nautilus-dropbox/emblems
+@dirrm share/nautilus-dropbox
+@dirrm share/licenses/nautilus-dropbox-0.6.7
+@dirrm share/licenses
+@dirrm share/icons/hicolor/64x64/apps
+@dirrm share/icons/hicolor/64x64
+@dirrm share/icons/hicolor/48x48/apps
+@dirrm share/icons/hicolor/48x48
+@dirrm share/icons/hicolor/32x32/apps
+@dirrm share/icons/hicolor/32x32
+@dirrm share/icons/hicolor/24x24/apps
+@dirrm share/icons/hicolor/24x24
+@dirrm share/icons/hicolor/22x22/apps
+@dirrm share/icons/hicolor/22x22
+@dirrm share/icons/hicolor/16x16/apps
+@dirrm share/icons/hicolor/16x16
+@dirrm share/icons/hicolor
+@dirrm share/icons
+@dirrm share/applications

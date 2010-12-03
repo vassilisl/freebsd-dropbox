@@ -1,0 +1,22 @@
+--- ./dropbox.in.orig	2010-12-03 00:47:11.000000000 +0000
++++ ./dropbox.in	2010-12-03 00:52:59.000000000 +0000
+@@ -1,4 +1,4 @@
+-#!/usr/bin/python
++#!/usr/local/bin/python2.6
+ #
+ # Copyright 2008 Evenflow, Inc.
+ #
+@@ -118,6 +118,13 @@
+         else:
+             FatalVisibleError("Platform not supported")
+         return "lnx.%s" % plat
++    elif sys.platform.lower().startswith('freebsd'):
++        arch = platform.machine()
++        if (arch[0] == 'i' and
++            arch[1].isdigit() and
++            arch[2:4] == '86'):
++            plat = "x86"
++        return "lnx.%s" % plat
+     else:
+         FatalVisibleError("Platform not supported")
+ 
