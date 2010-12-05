@@ -1,0 +1,8 @@
+--- ./dropboxd.orig	2010-12-05 02:48:15.000000000 +0000
++++ ./dropboxd	2010-12-05 02:49:24.000000000 +0000
+@@ -1,4 +1,4 @@
+-#!/bin/sh
++#!/compat/linux/bin/sh
+ 
+ # Copyright 2008 Evenflow, Inc., 2010 Dropbox
+ #
